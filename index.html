@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile index</title>
+</head>
+<style>
+    html body {
+        font-family: 'roboto', sans-serif;
+        background: palegoldenrod;
+    }
+
+    main {
+        width: 80vw;
+        margin: auto;
+        text-align: center;
+    }
+
+    h2 {
+        color: darkslategray;
+    }
+
+    .progressbar {
+        display: grid;
+        border: 3px solid orangered;
+        border-radius: 20px;
+        height: 3vh;
+    }
+
+    .bar {
+        display: grid;
+        background-color: peru;
+        width: 15%;
+        z-index: -1;
+        height: 100%;
+        align-items: center;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        animation: pulse 5s infinite;
+    }
+
+    .barinfo {
+        color: white;
+        padding-left: 5px;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    @keyframes pulse {
+        0% {
+            background-color: peru;
+        }
+
+        50% {
+            background-color: darkslategray;
+        }
+
+        100% {
+            background-color: peru;
+        }
+    }
+</style>
+
+<body>
+    <main>
+        <header>
+            <h2>It's hard to believe, but is loading</h2>
+        </header>
+        <div class="progressbar">
+            <div class="bar">
+                <div class="barinfo">15%</div>
+            </div>
+        </div>
+        <p>Just preparing the history of my life to put here. In a few weeks, almost 30 years of history with computers
+            and technology. Love and hate, everything compressed in one only file.</p>
+        <p><i>Don't be afraid to change the direction, learn hurts, but like the scars, knowledge is forever.</i></p>
+    </main>
+
+    <script>
+
+    </script>
+
+
+
+</body>
+
+</html>
